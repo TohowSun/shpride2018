@@ -1,0 +1,14 @@
+<!--page/component/pages/detail/detail.wxml-->
+<view class="index">
+  <view class="index-hd">
+    <image class="index-pic" src="resources/pride.jpg"></image>
+  </view>
+  <view class="index-bd">
+    <view class="index-desc">了解活动详情请复制以下链接到浏览器打开：</view>
+    <view class="text-box" scroll-y="true" scroll-top="{{scrollTop}}">
+        <text>{{urltext}}</text>
+      </view>
+      <button bindtap="copy">复制链接</button>
+  </view>
+</view>
+
