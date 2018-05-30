@@ -22,6 +22,18 @@
   color: #888888;
   font-size: 35rpx;
 }
+.index-title {
+  margin-top: 10rpx;
+  font-size: 45rpx;
+  color: #888888;
+  text-align: center;
+}
+.index-subtitle {
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  color: #888888;
+  text-align: center;
+}
 
 
 .navigator-box {

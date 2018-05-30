@@ -6,10 +6,22 @@
     <image class="index-pic" src="resources/pride.jpg"></image>
   </view>
   <view class="index-bd">
-    <view class="index-desc">了解活动详情请复制以下链接到浏览器打开：</view>
-    <view class="text-box" scroll-y="true" scroll-top="{{scrollTop}}">
-        <text selectable='true'>https://mp.weixin.qq.com/s/\no6VXM4M4Dv8JdG2ek5TI8g</text>
-      </view>
-      <button bindtap="copy">复制链接</button>
+    <view class="index-title">骄傲跑</view>
+    <view class="index-subtitle">
+      <view>Pride Run</view>
+      <view>2018-06-09 9:00-11:00</view>
+    </view>
+    <view class="text-box">
+      <text selectable='true'>终点站：上海新天地安达仕酒店</text>
+      <text selectable='true'>Desitination: Andaz Xintiandi, Shanghai</text>
+    </view>
+    <view class="text-box">
+      <text selectable='true'>黄浦区嵩山路88号（近太仓路）</text>
+      <text selectable='true'>88 Songshan Rd(near Taicang Rd), Huangpu District</text>
+    </view>
+    <view class="text-box">
+      <text selectable='true'>建议最低支持金额 RMB 180</text>
+      <text selectable='true'>Suggested minimum donation RMB 180</text>
+    </view>
   </view>
 </view>

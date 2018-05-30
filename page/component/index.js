@@ -3,36 +3,41 @@ Page({
     list: [
       {
         id: '20180609',
-        name: '2018-06-09 周六',
+        name: '2018-06-09 周六 SAT',
         open: false,
         pages: [
           {
             id: 'pride-run',
             name: '骄傲跑',
+            nameEn: 'Pride Run',
             time: '9:00-11:00',
             address: '终点站：上海新天地安达仕酒店',
           },
           {
             id: 'rainbow-family',
             name: '彩虹家庭论坛',
+            nameEn: 'Rainbow Family Forum',
             time: '10:00-12:00',
             address: '上海新天地安达仕酒店5楼花园玻璃房'
           },
           {
             id: 'pflag',
             name: '亲友会十周年特别恳谈会',
+            nameEn: 'PFLAG Conference',
             time: '10:00-18:00',
             address: '上海新天地安达仕酒店3楼'
           },
           {
             id: 'view',
             name: '安达仕粉红早午餐',
+            nameEn: 'Andaz Pink Brunch',
             time: '11:00-14:00',
             address: '上海新天地安达仕酒店'
           },
           {
             id: 'view',
             name: '女众不同 – 反性骚扰论坛',
+            nameEn: 'Women Up! - Anti-Sexual Harassment Panel',
             time: '13:00-16:00',
             address: '上海新天地安达仕酒店5楼花园玻璃房'
           },
@@ -52,7 +57,7 @@ Page({
       }, 
       {
         id: '20180610',
-        name: '2018-06-10 周日',
+        name: '2018-06-10 周日 SUN',
         open: false,
         pages: [
           {
@@ -65,7 +70,7 @@ Page({
       },
       {
         id: '20180613',
-        name: '2018-06-13 周三',
+        name: '2018-06-13 周三 WED',
         open: false,
         pages: [
           {
@@ -78,7 +83,7 @@ Page({
       },
       {
         id: '20180614',
-        name: '2018-06-14 周四',
+        name: '2018-06-14 周四 THU',
         open: false,
         pages: [
           {

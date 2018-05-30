@@ -3,6 +3,7 @@
     "page/component/index",
 
     "page/component/pages/detail/detail",
+    "page/component/pages/pride-run/pride-run",
 
     "page/myEvent/index"
   ],
