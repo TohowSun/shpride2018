@@ -1,1 +1,21 @@
 @import "../common/index.wxss";
+
+.block {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  margin-top: 0px;
+  background: white;
+  font-size: 30rpx;
+}
+.button-text{
+  font-size: 40rpx;
+  color: #51adcf;
+  font-weight: bold;
+}
+
+.button-text-en{
+  font-size: 28rpx;
+  color: #8ea6b4;
+}

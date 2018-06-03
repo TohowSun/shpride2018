@@ -3,6 +3,16 @@
     <image class="index-pic" src="resources/kind/pride.jpg"></image>
   </view>
   <view class="index-bd">
+    <view class="block">
+      <button>
+        <view class="button-text">骄傲电影节</view>
+        <view class="button-text-en">SHPFF</view>
+      </button>
+      <button>
+        <view class="button-text">十周年纪念展</view>
+        <view class="button-text-en">Pride 10 Anniversary Gallery</view>
+      </button>
+    </view>
     <view class="kind-list">
       <block wx:for-items="{{list}}" wx:key="{{item.id}}">
         <view class="kind-list-item">
@@ -13,8 +23,7 @@
           <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
             <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
               <block wx:for-items="{{item.pages}}" wx:for-item="page" wx:key="*item">
-                <!--<navigator url="pages/detail/detail?id={{page.id}}" class="navigator">-->
-                <navigator url="pages/pride-run/pride-run?id={{page.id}}" class="navigator">
+                <navigator url="pages/event-info/event-info?id={{page.id}}" class="navigator">
                   <view class="navigator-text">
                     <view>{{page.name}}</view>
                     <view>{{page.nameEn}}</view>

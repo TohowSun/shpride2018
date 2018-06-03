@@ -28,14 +28,14 @@ Page({
             address: '上海新天地安达仕酒店3楼'
           },
           {
-            id: 'view',
+            id: 'andaz-pink',
             name: '安达仕粉红早午餐',
             nameEn: 'Andaz Pink Brunch',
             time: '11:00-14:00',
             address: '上海新天地安达仕酒店'
           },
           {
-            id: 'view',
+            id: 'women-up',
             name: '女众不同 – 反性骚扰论坛',
             nameEn: 'Women Up! - Anti-Sexual Harassment Panel',
             time: '13:00-16:00',
@@ -61,7 +61,7 @@ Page({
         open: false,
         pages: [
           {
-            id: 'pride-run',
+            id: 'queer-talk',
             name: '酷儿说 – 酷儿与残障人群',
             time: '16:00-19:00',
             address: 'Happiness42',
@@ -74,7 +74,7 @@ Page({
         open: false,
         pages: [
           {
-            id: 'pride-run',
+            id: 'trivial',
             name: '竞猜之夜',
             time: '20:00-23:00',
             address: 'Lucca Café & Lounge',
@@ -87,13 +87,13 @@ Page({
         open: false,
         pages: [
           {
-            id: 'pride-run',
+            id: 'out-equal',
             name: 'Out & Equal 中国“圆桌派”',
             time: '10:00-19:00',
             address: '中国GE',
           },
           {
-            id: 'pride-run',
+            id: 'girls-party',
             name: '女生派对',
             time: '21:00-24:00',
             address: 'HILO',
