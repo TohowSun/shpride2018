@@ -1,8 +1,7 @@
-<!--page/component/pages/detail/detail.wxml-->
+<import src="../../../common/head.wxml"/>
+
 <view class="index">
-  <view class="index-hd">
-    <image class="index-pic" src="resources/pride.jpg"></image>
-  </view>
+  <template is="head"></template>
   <view class="index-bd">
     <view class="index-desc">了解活动详情请复制以下链接到浏览器打开：</view>
     <view class="text-box" scroll-y="true" scroll-top="{{scrollTop}}">

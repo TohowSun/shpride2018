@@ -1,28 +1,17 @@
-<import src="../common/head.wxml"/>
+<import src="../../../common/head.wxml"/>
 
 <view class="index">
+
   <template is="head"></template>
+
   <view class="index-bd">
-    <view class="block">
-      <navigator url="pages/shpff/shpff">
-        <view class="navigator-block">
-          <view class="button-text">骄傲电影节</view>
-          <view class="button-text-en">SHPFF</view>
-        </view>
-      </navigator>
-      <navigator url="pages/shpff/shpff">
-        <view class="navigator-block">
-          <view class="button-text">十周年纪念展</view>
-          <view class="button-text-en">Pride 10 Anniversary Gallery</view>
-        </view>
-      </navigator>
-    </view>
+    <view class="index-title">骄傲电影节活动日程 SHPFF</view>
     <view class="kind-list">
       <block wx:for-items="{{list}}" wx:key="{{item.id}}">
         <view class="kind-list-item">
           <view id="{{item.id}}" class="kind-list-item-hd {{item.open ? 'kind-list-item-hd-show' : ''}}" bindtap="kindToggle">
             <view class="kind-list-text">{{item.name}}</view>
-            <image class="kind-list-img" src="resources/kind/form.png"></image>
+            <image class="kind-list-img" src="../../resources/kind/form.png"></image>
           </view>
           <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
             <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
@@ -35,7 +24,6 @@
                   <view class="navigator-arrow"></view>
                 </navigator>
                 <view class="navigator-detail">{{page.time}}</view>
-                <!--<view class="navigator-detail">{{page.address}}</view>-->
               </block>
             </view>
           </view>

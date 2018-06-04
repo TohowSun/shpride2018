@@ -16,6 +16,12 @@ button {
 }
 
 .button-text-en{
-  font-size: 28rpx;
+  font-size: 30rpx;
   color: #8ea6b4;
+}
+
+.navigator-block{
+  padding: 30rpx;
+  background-color: white;
+  text-align: center
 }

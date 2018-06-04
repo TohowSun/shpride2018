@@ -4,6 +4,7 @@
 
     "page/component/pages/detail/detail",
     "page/component/pages/event-info/event-info",
+    "page/component/pages/shpff/shpff",
 
     "page/myEvent/index"
   ],
