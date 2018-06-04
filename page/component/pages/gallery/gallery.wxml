@@ -1,0 +1,38 @@
+<import src="../../../common/head.wxml"/>
+
+<view class="index">
+  <template is="head"></template>
+  <view class="index-bd">
+    <view class="index-title-pink">十周年纪念展</view>
+    <view class="index-subtitle-pink">
+      <view>Pride 10 Anniversary Gallery</view>
+    </view>
+    <view class="text-box">
+      <text selectable='true'>2018-06-09 周六(SAT) ~ 07-01 周日(SUN)</text>
+      <text selectable='true'>10:00-18:00</text>
+      <text selectable='true'>(周一闭馆 Closed on Monday)</text>
+    </view>
+    <view class="text-box">
+      <text selectable='true'>开幕式 Opening</text>
+      <text selectable='true'>2018-06-08 周五(FRI) 19：00-21：30</text>
+    </view>
+    <view class="text-box">
+      <text selectable='true'>北极熊画廊 Polar Bear Gallery</text>
+      <text class="text-content" selectable='true'>普陀区莫干山路50号M50创意园4B-102(近西苏州路)</text>
+      <text class="text-content" selectable='true'>4B-102, M50 Creative Park, 50 Moganshan Rd(near West Suzhou Rd), Putuo District</text>
+    </view>
+    <view class="text-box">
+      <text selectable='true'>免费入场，导览需预约</text>
+      <text selectable='true'>Free Entry, RSVP for guided tour</text>
+    </view>
+    <image class="gallery-pic" src="resources/gallery1.jpg"></image>
+    <image class="gallery-pic2" src="resources/gallery4.jpg"></image>
+    <image class="gallery-pic3" src="resources/gallery3.jpg"></image>
+    <image class="gallery-pic4" src="resources/gallery2.jpg"></image>
+    <view class="text-box">
+      <text class="text-content" selectable='true'>我们相约这六月，欢迎参与这具有里程碑意义的第十年，或许你也会在这里找到自己过去的身影，再次划出彩虹！</text>
+      <text selectable='true'>We will be waiting for you to celebrate together.</text>
+    </view>
+  </view>
+</view>
+

@@ -1,16 +1,16 @@
-<import src="../common/head.wxml"/>
-
 <view class="index">
-  <template is="head"></template>
+  <view class="index-hd">
+    <image class="index-pic" src="../../image/pride.jpg"></image>
+  </view>
   <view class="index-bd">
     <view class="block">
-      <navigator url="pages/shpff/shpff">
+      <navigator>
         <view class="navigator-block">
           <view class="button-text">骄傲电影节</view>
           <view class="button-text-en">SHPFF</view>
         </view>
       </navigator>
-      <navigator url="pages/shpff/shpff">
+      <navigator url="pages/gallery/gallery">
         <view class="navigator-block">
           <view class="button-text">十周年纪念展</view>
           <view class="button-text-en">Pride 10 Anniversary Gallery</view>

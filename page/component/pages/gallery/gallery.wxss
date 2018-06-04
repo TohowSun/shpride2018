@@ -1,0 +1,33 @@
+@import "../event-info/event-info.wxss";
+
+.index-title-pink{
+  margin-top: 10rpx;
+  font-size: 45rpx;
+  color: #eaafaf;
+  text-align: center;
+  font-weight: bold;
+}
+
+.index-subtitle-pink{
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  color: #f5d9d9;
+  text-align: center;
+}
+
+.gallery-pic{
+  width: 700rpx;
+  height: 1333rpx;
+}
+.gallery-pic2{
+  width: 700rpx;
+  height: 565rpx;
+}
+.gallery-pic3{
+  width: 700rpx;
+  height: 1050rpx;
+}
+.gallery-pic4{
+  width: 700rpx;
+  height: 467rpx;
+}

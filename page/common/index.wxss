@@ -27,6 +27,7 @@
   font-size: 45rpx;
   color: #888888;
   text-align: center;
+  font-weight: bold;
 }
 .index-subtitle {
   margin-bottom: 20rpx;
@@ -78,7 +79,8 @@
   font-size:30rpx
 }
 .navigator-arrow {
-  padding-right: 26rpx;
+  padding-right: 50rpx;
+  padding-left:10rpx;
   position: relative;
 }
 .navigator-arrow:after {

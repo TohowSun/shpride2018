@@ -1,25 +1,11 @@
-// page/component/pages/shpff/shpff.js
+// page/component/pages/gallery/gallery.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
-  },
-
-  kindToggle: function (e) {
-    var id = e.currentTarget.id, list = this.data.list;
-    for (var i = 0, len = list.length; i < len; ++i) {
-      if (list[i].id == id) {
-        list[i].open = !list[i].open
-      } else {
-        list[i].open = false
-      }
-    }
-    this.setData({
-      list: list
-    });
+  
   },
 
   /**

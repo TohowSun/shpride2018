@@ -1,1 +1,9 @@
 @import "../../../common/index.wxss";
+
+.index-title-color{
+  color: #eaafaf;
+  margin-top: 10rpx;
+  font-size: 45rpx;
+  text-align: center;
+  font-weight: bold;
+}

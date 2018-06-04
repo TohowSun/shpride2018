@@ -5,7 +5,7 @@
   <template is="head"></template>
 
   <view class="index-bd">
-    <view class="index-title">骄傲电影节活动日程 SHPFF</view>
+    <view class="index-title-color">骄傲电影节活动日程 SHPFF</view>
     <view class="kind-list">
       <block wx:for-items="{{list}}" wx:key="{{item.id}}">
         <view class="kind-list-item">
