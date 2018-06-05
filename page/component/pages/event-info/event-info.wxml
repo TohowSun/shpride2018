@@ -15,14 +15,14 @@
       <text selectable='true'>{{item.placeEn}}</text>
     </view>
     <view class="text-box">
-      <text selectable='true'>{{item.address}}</text>
-      <text selectable='true'>{{item.addressEn}}</text>
+      <text class="text-content" selectable='true'>{{item.address}}</text>
+      <text class="text-content" selectable='true'>{{item.addressEn}}</text>
     </view>
     <view class="text-box">
-      <text selectable='true'>{{item.price}}</text>
-      <text selectable='true'>{{item.priceEn}}</text>
-      <text selectable='true'>{{item.other}}</text>
-      <text selectable='true'>{{item.otherEn}}</text>
+      <text class="text-content" selectable='true'>{{item.price}}</text>
+      <text class="text-content" selectable='true'>{{item.priceEn}}</text>
+      <text class="text-content" selectable='true'>{{item.other}}</text>
+      <text class="text-content" selectable='true'>{{item.otherEn}}</text>
     </view>
   </view>
 </view>

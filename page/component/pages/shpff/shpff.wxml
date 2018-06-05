@@ -6,6 +6,8 @@
 
   <view class="index-bd">
     <view class="index-title-color">骄傲电影节活动日程 SHPFF</view>
+    <view class="index-subtitle">敬请期待...</view>
+    <view class="index-subtitle">Coming Soon!</view>
     <view class="kind-list">
       <block wx:for-items="{{list}}" wx:key="{{item.id}}">
         <view class="kind-list-item">

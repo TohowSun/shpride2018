@@ -4,7 +4,7 @@
   </view>
   <view class="index-bd">
     <view class="block">
-      <navigator>
+      <navigator url="pages/shpff/shpff">
         <view class="navigator-block">
           <view class="button-text">骄傲电影节</view>
           <view class="button-text-en">SHPFF</view>

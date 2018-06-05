@@ -81,7 +81,7 @@ Page({
             time: '20:00-21:30',
           },
           {
-            id: 'view',
+            id: 'bling',
             name: '上海骄傲节闪耀派对',
             nameEn: 'ShanghaiPRIDE Bling Party',
             time: '21:00-2:00',
@@ -98,7 +98,6 @@ Page({
             name: '酷儿说 – 酷儿与残障人群',
             nameEn: 'Queer Talks - Queer & Disabilities',
             time: '16:00-19:00',
-            address: 'Happiness42',
           },
           {
             id: 'shptf4',
@@ -128,7 +127,7 @@ Page({
         pages: [
           {
             id: 'out-equal',
-            name: 'Out & Equal 中国“圆桌派”',
+            name: 'Out & Equal 中国"圆桌派"',
             nameEn: 'Out & Equal Roundtable',
             time: '10:00-19:00',
           },
